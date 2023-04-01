@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/styles.css">
+
+        <title>Store Place</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Store Place
+                    <a href="./publicar.html" class="boton-publicar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17q.425 0 .713-.288T13 16v-3h3q.425 0 .713-.288T17 12q0-.425-.288-.713T16 11h-3V8q0-.425-.288-.713T12 7q-.425 0-.713.288T11 8v3H8q-.425 0-.713.288T7 12q0 .425.288.713T8 13h3v3q0 .425.288.713T12 17Zm-7 4q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.588 1.413T19 21H5Zm0-2h14V5H5v14Zm0 0V5v14Z"/></svg>
+                    </a>
+
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i>Inicio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>Acerca
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./categorias.html" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Categorias
+                            </a>
+                        </li>
+                          <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i>Servicios
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Portfolio                                
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contacto                               
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/prashanna-sathiyamoorthy-194704153/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://twitter.com/prashanna01" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+                            <a href="https://www.github.com" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x="" xlink:href="packages/images/store.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hola , Bienvenido a tu Marketplace favorito</h1>
+                            <h4 class="home__subtitle">Contenido por categorias</h4>
+                            <p class="home__description">Podras buscar y encontrar todo lo que necesites</p>
+                            <a href="#contact" class="button button--flex home__button">
+                                Publicar<i class="uil add-box-outline button__icon"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17q.425 0 .713-.288T13 16v-3h3q.425 0 .713-.288T17 12q0-.425-.288-.713T16 11h-3V8q0-.425-.288-.713T12 7q-.425 0-.713.288T11 8v3H8q-.425 0-.713.288T7 12q0 .425.288.713T8 13h3v3q0 .425.288.713T12 17Zm-7 4q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.588 1.413T19 21H5Zm0-2h14V5H5v14Zm0 0V5v14Z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">Nosotros</h2>
+                <span class="section__subtitle">El mejor sitio para vender</span>
+
+                <div class="about__container container grid">
+                    <img src="packages/images/venta.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                            Somos la empresa lider en ventas digitales en Guatemala.....
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi suscipit incidunt id delectus tenetur perferendis provident temporibus error ut, soluta fugiat, pariatur, cum ad rem ea similique odio necessitatibus architecto.
+                        </p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">+3</span>
+                                <span class="about__info-name">Años <br> Ayudandote</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">+40</span>
+                                <span class="about__info-name">Categorias <br>Novedoso</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">+1000</span>
+                                <span class="about__info-name">Usuarios<br>y mas servicios</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="packages/pdf/" class="button button--flex">
+                                Descargar guia<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Categorias</h2>
+                <span class="section__subtitle">Compra y vende</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                         <!--==================== SKILL-1 ====================-->
+
+                         <!--==================== 
+                            
+
+                            <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-analytics skills__icon"></i>
+                               <div>
+                                   <h1 class="skills__title">Data Analyst</h1>
+                                   <span class="skills__subtitle">More than 2 years</span>
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__python"></span>
+                                    </div>
+                                </div>
+                               <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">Tableau</h3>
+                                       <span class="skills__number">70%</span>
+                                   </div>
+                                   <div class="skills__bar">
+                                       <span class="skills__percentage skills__tab"></span>
+                                   </div>
+                               </div>
+                               <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">SQL</h3>
+                                       <span class="skills__number">50%</span>
+                                   </div>
+                                   <div class="skills__bar">
+                                       <span class="skills__percentage skills__sql"></span>
+                                   </div>
+                               </div>
+                               <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">Google Suite</h3>
+                                       <span class="skills__number">70%</span>
+                                   </div>
+                                   <div class="skills__bar">
+                                       <span class="skills__percentage skills__google"></span>
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+                            
+                            
+                            
+                            ====================-->
+                         
+                        
+                         <!--==================== SKILLS 2 ====================-->
+
+                         <!--==================== 
+                            
+
+                            <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-money-bill skills__icon"></i>
+                               <div>
+                                   <h1 class="skills__title">Banker</h1>
+                                   <span class="skills__subtitle">More than 3 years</span>
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Digital Banking</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__bank"></span>
+                                    </div>
+                               </div>
+                               <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">Counters</h3>
+                                       <span class="skills__number">80%</span>
+                                   </div>
+                                   <div class="skills__bar">
+                                       <span class="skills__percentage skills__counter"></span>
+                                   </div>
+                               </div>
+                               <div class="skills__data">
+                                    <div class="skills__titles">
+                                      <h3 class="skills__name">Google suite</h3>
+                                      <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                       <span class="skills__percentage skills__google"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">MS Office</h3>
+                                       <span class="skills__number">90%</span>
+                                   </div>
+                                   <div class="skills__bar">
+                                       <span class="skills__percentage skills__office"></span>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                            
+                            
+                            ====================-->
+                        
+                    </div>
+
+                    <div>
+                        <!--==================== SKILLS 3 ====================-->
+
+                        <!--==================== 
+                            
+                            <div class="skills__content skills__close">
+                            <div class="skills__header">
+                               <i class="uil uil-brackets-curly skills__icon"></i>
+                               <div>
+                                   <h1 class="skills__title">Web Developer</h1>
+                                   <span class="skills__subtitle">More than 3 years</span>
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div>
+                               <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">CSS</h3>
+                                       <span class="skills__number">80%</span>
+                                   </div>
+                                   <div class="skills__bar">
+                                       <span class="skills__percentage skills__css"></span>
+                                   </div>
+                               </div>
+                               <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">JavaScript</h3>
+                                       <span class="skills__number">60%</span>
+                                   </div>
+                                   <div class="skills__bar">
+                                       <span class="skills__percentage skills__js"></span>
+                                   </div>
+                               </div>
+                               <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">WordPress</h3>
+                                       <span class="skills__number">70%</span>
+                                   </div>
+                                   <div class="skills__bar">
+                                       <span class="skills__percentage skills__wordpress"></span>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                            
+                            ====================-->
+                        
+                    </div>
+
+
+                    <div>
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                               <i class="uil  skills__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 36 36"><g id="clarityEmployeeGroupSolid0" fill="currentColor"><ellipse cx="18" cy="11.28" rx="4.76" ry="4.7"/><path d="M10.78 11.75h.48v-.43a6.7 6.7 0 0 1 3.75-6a4.62 4.62 0 1 0-4.21 6.46Zm13.98-.47v.43h.48A4.58 4.58 0 1 0 21 5.29a6.7 6.7 0 0 1 3.76 5.99Zm-2.47 5.17a21.45 21.45 0 0 1 5.71 2a2.71 2.71 0 0 1 .68.53H34v-3.42a.72.72 0 0 0-.38-.64a18 18 0 0 0-8.4-2.05h-.66a6.66 6.66 0 0 1-2.27 3.58ZM6.53 20.92A2.76 2.76 0 0 1 8 18.47a21.45 21.45 0 0 1 5.71-2a6.66 6.66 0 0 1-2.27-3.55h-.66a18 18 0 0 0-8.4 2.05a.72.72 0 0 0-.38.64V22h4.53Zm14.93 5.77h5.96v1.4h-5.96z"/><path d="M32.81 21.26h-6.87v-1a1 1 0 0 0-2 0v1H22v-2.83a20.17 20.17 0 0 0-4-.43a19.27 19.27 0 0 0-9.06 2.22a.76.76 0 0 0-.41.68v5.61h7.11v6.09a1 1 0 0 0 1 1h16.17a1 1 0 0 0 1-1V22.26a1 1 0 0 0-1-1Zm-1 10.36H17.64v-8.36h6.3v.91a1 1 0 0 0 2 0v-.91h5.87Z"/></g></svg>
+                               </i>
+                                <div>
+                                   <h1 class="skills__title">EMPLEO</h1>
+                                   <span class="skills__subtitle">Buscar , publicar </span>
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                
+                                    <div class="skills_letras">
+                                    
+                                        <a href="./empleo.html">Administrativo</a>
+                                        <a href="./empleo.html">Cajero</a>
+                                        <a href="./empleo.html">Conductores</a>
+                                        <a href="./empleo.html">Construccion</a>
+                                        <a href="./empleo.html">Cocinero</a>
+                                        <a href="./empleo.html">Receptionista</a>
+                                        <a href="./empleo.html">Informatica</a>
+                                        <a href="./empleo.html">Limpieza</a>
+
+                                   
+                                    </div>
+                                   
+                                
+                            
+                            </div>
+                       </div>
+                    </div>
+
+
+                    <div>
+                        <!--==================== SKILLS 4 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                               <i class="uil  skills__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M19 9.3V5c0-.55-.45-1-1-1h-1c-.55 0-1 .45-1 1v1.6l-3.33-3c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L19 9.3zm-9 .7c0-1.1.9-2 2-2s2 .9 2 2h-4z"/></svg>
+                               </i>
+                                <div>
+                                   <h1 class="skills__title">HOGAR</h1>
+                                   <span class="skills__subtitle">Articulos para tu hogar</span>
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills_letras">
+                                    
+                                    <a href="">Baños</a>
+                                    <a href="">Cocina</a>
+                                    <a href="">Decoracion</a>
+                                    <a href="">Deportes</a>
+                                    <a href="">Limpieza</a>
+                                    <a href="">Relojes</a>
+                                    <a href="">Soportes</a>
+                                    <a href="">Varios</a>
+                                    <a href="">Ventiladores</a>
+                                    <a href="">Viaje</a>
+
+                               
+                                </div>
+                            
+                            </div>
+                       </div>
+                    </div>
+
+
+                    <div>
+                        <!--==================== SKILLS 5 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                               <i class="uil  skills__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M4 6h16v10H4m16 2a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4c-1.11 0-2 .89-2 2v10a2 2 0 0 0 2 2H0v2h24v-2h-4Z"/></svg></i>
+                                <div>
+                                   <h1 class="skills__title">INFORMATICA</h1>
+                                   <span class="skills__subtitle">Accesorios y mas</span>
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                               
+                                <div class="skills_letras">
+                                    
+                                    <a>Computarodra</a>
+                                        <a href="">Discos duros</a>
+                                        <a href="">Unidades de estado solio</a>
+                                        <a href="">Audifonos</a>
+                                        <a href="">Bocinas</a>
+                                        <a href="">Impresoras</a>
+                                        <a href="">Cargadores</a>
+                                        <a href="">Cartuchos para impresora</a>
+                                        <a href="">Teclacos</a>
+                                        <a href="">Ratones</a>
+                                        <a href="">Pantallas</a>
+
+                               
+                                </div>
+                            
+                            </div>
+                       </div>
+                    </div>
+
+                    <div>
+                        <!--==================== SKILLS 6 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                               <i class="uil  skills__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7H12Z"/></svg>
+                              </i>
+                                <div>
+                                   <h1 class="skills__title">INMOBILIARIA</h1>
+                                   <span class="skills__subtitle">Compraventas, liquidaciones</span>
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills_letras">
+                                    
+                                    <a href="">Compraventas</a>
+                                    <a href="">Liquidaciones</a>
+                                    <a href="">Alquiler</a>
+                               
+                                </div>
+                            
+                            </div>
+                       </div>
+                    </div>
+
+
+                    <div>
+                        <!--==================== SKILLS 7 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                               <i class="uil  skills__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M7 20q-1.125 0-1.963-.713T4.05 17.45H2V10.2h2.8L3 8.4l-1 1L.6 8L4 4.6L5.4 6l-1 1l1.4 1.4L7.3 4h9.425l2.025 6.1H22v7.35h-2.05q-.15 1.125-.988 1.838T17 20q-.95 0-1.713-.55T14.2 18H9.8q-.325.9-1.088 1.45T7 20Zm.4-10H11V6H8.725L7.4 10Zm5.6 0h3.6l-1.325-4H13v4Zm-3.2 6h4.4q.325-.9 1.088-1.45T17 14q.75 0 1.4.35t1.1.95h.5V12H4v3.3h.5q.45-.6 1.1-.95T7 14q.95 0 1.713.55T9.8 16ZM7 18q.425 0 .713-.288T8 17q0-.425-.288-.713T7 16q-.425 0-.713.288T6 17q0 .425.288.713T7 18Zm10 0q.425 0 .713-.288T18 17q0-.425-.288-.713T17 16q-.425 0-.713.288T16 17q0 .425.288.713T17 18Zm-5-4Z"/></svg>
+                                </i>
+                                <div>
+                                   <h1 class="skills__title">JUGUETES</h1>
+                                   <span class="skills__subtitle">Niños, niñas, bebes </span>
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills_letras">
+                                    
+                                    <a href="">Muñecos</a>
+                                    <a href="">Carritocs</a>
+                                    <a href="">Colecciones</a>
+                                    <a href="">Clasicos</a>
+                                    <a href="">niños</a>
+                                    <a href="">niñas</a>
+                                    <a href="">Bebes</a>
+                
+                                </div>
+                            
+                            </div>
+                       </div>
+                    </div>
+
+
+
+                    <div>
+                        <!--==================== SKILLS 8 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                               <i class="uil  skills__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1zm4 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM5 8h4m0 8h4"/><path d="m13.803 4.56l2.184-.53c.562-.135 1.133.19 1.282.732l3.695 13.418a1.02 1.02 0 0 1-.634 1.219l-.133.041l-2.184.53c-.562.135-1.133-.19-1.282-.732L13.036 5.82a1.02 1.02 0 0 1 .634-1.219l.133-.041zM14 9l4-1m-2 8l3.923-.98"/></g></svg>    
+                            </i>
+                                <div>
+                                   <h1 class="skills__title">LIBROS</h1>
+                                   <span class="skills__subtitle">Historias, novelas ,cuentos </span>
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills_letras">
+                                    
+                                    <a href="">Novelas</a>
+                                    <a href="">Terror</a>
+                                    <a href="">Cuentos</a>
+                                    <a href="">Historias</a>
+                                    <a href="">Leyendas</a>
+                               
+                                </div>
+                            
+                            </div>
+                       </div>
+                    </div>
+
+
+                    <div>
+                        <!--==================== SKILLS 9 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                               <i class="uil  skills__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 15 15"><path fill="currentColor" d="M8.691 10.142V8.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.641a3.99 3.99 0 0 0-2.957 3.272a.507.507 0 0 0 .5.586h6.922a.507.507 0 0 0 .5-.586a3.99 3.99 0 0 0-2.965-3.271zm4.639-3.863l-2.5-5A.5.5 0 0 0 10.383 1H4.999a.5.5 0 0 0-.446.276l-2.5 5A.5.5 0 0 0 2.497 7h8.194v1.5a.5.5 0 0 0 1 0V7h1.194a.5.5 0 0 0 .445-.721z"/></svg>
+                            </i>
+                                <div>
+                                   <h1 class="skills__title">MUEBLES</h1>
+                                   <span class="skills__subtitle">Mesas ,sillas ,puertas </span>
+                               </div>
+
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                              </div>
+                            <div class="skills__list grid">
+                                <div class="skills_letras">
+                                    
+                                    <a href="">Mesas</a>
+                                    <a href="">Sillas</a>
+                                    <a href="">Escritorios</a>
+                                    <a href="">Puertas</a>
+                                    <a href="">Ventanas</a>
+                                    <a href="">Roperos</a>
+                               
+                                </div>
+                            
+                            </div>
+                       </div>
+                    </div>
+
+                    <div>
+                        <!--==================== SKILLS 10 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                               <i class="uil  skills__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M12 4a3.5 3.5 0 0 0-3.5 3.5h2A1.5 1.5 0 0 1 12 6a1.5 1.5 0 0 1 1.5 1.5A1.5 1.5 0 0 1 12 9c-.55 0-1 .45-1 1v1.75L2.4 18.2A1 1 0 0 0 3 20h18a1 1 0 0 0 .6-1.8L13 11.75v-.9a3.5 3.5 0 0 0 2.5-3.35A3.5 3.5 0 0 0 12 4m0 9.5l6 4.5H6Z"/></svg>    
+                            </i>
+                                <div>
+                                   <h1 class="skills__title">ROPA</h1>
+                                   
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                               </div>
+                            <div class="skills__list grid">
+                                <div class="skills_letras">
+                                    
+                                    <a href="">Chumpas</a>
+                                    <a href="">Camisas</a>
+                                    <a href="">Playeras</a>
+                                    <a href="">Pantalones</a>
+                                    <a href="">Blusas</a>
+                                    <a href="">Vestidos</a>
+                                    <a href="">Otros</a>
+                               
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+
+
+                    <div>
+                        <!--==================== SKILLS 11 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                               <i class="uil  skills__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M10.5 13H8v-3h2.5V7.5h3V10H16v3h-2.5v2.5h-3V13zM12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91c4.59-1.15 8-5.86 8-10.91V5l-8-3zm6 9.09c0 4-2.55 7.7-6 8.83c-3.45-1.13-6-4.82-6-8.83v-4.7l6-2.25l6 2.25v4.7z"/></svg> 
+                            </i>
+                                <div>
+                                   <h1 class="skills__title">SALUD</h1>
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                               </div>
+                            <div class="skills__list grid">
+                                <div class="skills_letras">
+                                    
+                                    <a href="">Clinicas</a>
+                                    <a href="">Consultas</a>
+                                    <a href="">Belleza</a>
+                                    <a href="">Enfermeria</a>
+                                    <a href="">Farmacias</a>
+                                    <a href="">Hospital</a>
+                               
+                                </div>
+                            
+                            </div>
+                       </div>
+                    </div>
+
+
+                    <div>
+                        <!--==================== SKILLS 11 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                               <i class="uil  skills__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 2048 2048"><path fill="currentColor" d="M1185 1179q-88-75-195-115t-222-40q-88 0-170 23t-153 64t-129 100t-100 130t-65 153t-23 170H0q0-120 35-231t101-205t156-167t204-115q-113-74-176-186t-64-248q0-106 40-199t109-163T568 40T768 0q106 0 199 40t163 109t110 163t40 200q0 66-16 129t-48 119t-75 103t-101 83q65 25 124 61t111 81l-90 91zM384 512q0 80 30 149t82 122t122 83t150 30q79 0 149-30t122-82t83-122t30-150q0-79-30-149t-82-122t-123-83t-149-30q-80 0-149 30t-122 82t-83 123t-30 149zm1344 256q66 0 124 25t101 69t69 102t26 124q0 66-25 124t-69 102t-102 69t-124 25q-23 0-45-3l-587 587q-27 27-62 41t-74 15q-40 0-75-15t-61-41t-41-61t-15-75q0-38 14-73t42-63l587-587q-3-22-3-45q0-66 25-124t68-101t102-69t125-26zm0 512q40 0 75-15t61-41t41-61t15-75q0-41-19-82l-146 146h-91v-91l146-146q-41-19-82-19q-40 0-75 15t-61 41t-41 61t-15 75q0 41 19 82l-640 641q-19 19-19 45t19 45t45 19q26 0 45-19l641-640q41 19 82 19z"/></svg>   
+                            </i>
+                                <div>
+                                   <h1 class="skills__title">SERVICIOS</h1>
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                               </div>
+                            <div class="skills__list grid">
+                                <div class="skills_letras">
+                                    
+                                    <a href="">Reparaciones</a>
+                                    <a href="">Limpieza</a>
+                                    <a href="">Mudanzas</a>
+                                    <a href="">Carpinteros</a>
+                                    <a href="">Plomeros</a>
+                                    <a href="">Motororistas</a>
+                                    <a href="">Electricistas</a>
+                                    <a href="">Traductores</a>
+                                
+                               
+                                </div>
+                            
+                            </div>
+                       </div>
+                    </div>
+
+                    <div>
+                        <!--==================== SKILLS 12 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                               <i class="uil  skills__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M15.8 3a3.25 3.25 0 0 1 3.152 2.46L19.337 7h.913a.75.75 0 0 1 .743.648L21 7.75a.75.75 0 0 1-.648.743l-.102.007h-.536l.208.826a2.249 2.249 0 0 1 1.082 1.924v8.497a1.75 1.75 0 0 1-1.75 1.75H17.75a1.75 1.75 0 0 1-1.75-1.75l-.001-1.247H8.004v1.247a1.75 1.75 0 0 1-1.75 1.75H4.75A1.75 1.75 0 0 1 3 19.747V11.25c0-.815.433-1.529 1.082-1.923l.207-.827H3.75a.75.75 0 0 1-.743-.648L3 7.75a.75.75 0 0 1 .648-.743L3.75 7h.913l.386-1.538A3.25 3.25 0 0 1 8.202 3h7.597ZM6.503 18.5H4.499l.001 1.247c0 .138.112.25.25.25h1.504a.25.25 0 0 0 .25-.25V18.5Zm13 0h-2.005l.001 1.247c0 .138.112.25.25.25h1.504a.25.25 0 0 0 .25-.25V18.5ZM13.751 14h-3.502l-.102.007a.75.75 0 0 0 0 1.486l.102.007h3.502l.101-.007A.75.75 0 0 0 13.751 14ZM17 12a1 1 0 1 0 0 2a1 1 0 0 0 0-2ZM7 12a1 1 0 1 0 0 2a1 1 0 0 0 0-2Zm8.8-7.5H8.201a1.75 1.75 0 0 0-1.698 1.326L5.711 9h12.582l-.796-3.176A1.75 1.75 0 0 0 15.799 4.5Z"/>
+                                </svg>  </i>
+                                <div>
+                                   <h1 class="skills__title">VEHICULOS</h1>
+                                   
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                               </div>
+                            <div class="skills__list grid">
+                                <div class="skills_letras">
+                                    
+                                        <a href="">Autos</a>
+                                        <a href="">Motos</a>
+                                        <a href="">Electricos</a>
+                                        <a href="">4x4</a>
+                                        <a href="">Pickups</a>
+                                   
+                                </div>
+                            
+                            </div>
+                       </div>
+                    </div>
+
+                </div>
+            </section>
+
+              <!--==================== QUALIFICATION ====================-->
+        <section class="qualification__section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div class="qualification__content qualification__active" data-content id="education">
+             <!--==================== QUALIFICATION 1 ====================--> 
+             <div class="qualification__data">
+                 <div>
+                     <h3 class="qualification__title">Diploma in English </h3>
+                     <span class="qualification__subtitle">British Council, Kandy</span>
+                     <div class="qualification__calendar">
+                        <i class="uil uil-calendar-alt"></i>
+                        2011 - 2012
+                     </div>
+                 </div>
+
+                 <div>
+                     <span class="qualification__rounder"></span>
+                     <span class="qualification__line"></span>
+                 </div>
+             </div>
+             
+             <!--==================== QUALIFICATION 2 ====================--> 
+             <div class="qualification__data">
+                <div></div>
+                <div>
+                   <span class="qualification__rounder"></span>
+                   <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                    <h3 class="qualification__title">GCE Adavance Level</h3>
+                    <span class="qualification__subtitle">St.Anthony's College, Kandy</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2012 - 2014
+                    </div>
+                </div>
+            </div> 
+
+            <!--==================== QUALIFICATION 3 ====================--> 
+            <div class="qualification__data">
+                <div>
+                    <h3 class="qualification__title">BSc Management Information System</h3>
+                    <span class="qualification__subtitle">NSBM Green University</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2015 - 2018
+                    </div>
+                </div>
+
+                <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                </div>
+            </div> 
+
+            <!--==================== QUALIFICATION 4 ====================--> 
+            <div class="qualification__data">
+                <div></div>
+                <div>
+                    <span class="qualification__rounder"></span>
+                   <!-- <span class="qualification__line"></span> -->
+                </div>
+
+                <div>
+                    <h3 class="qualification__title">Data Analyst Professional Certification</h3>
+                    <span class="qualification__subtitle">Google | Coursera - Online</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2021
+                    </div>
+                </div>
+
+                
+            </div>
+            </div>
+            
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qualification__content" data-content id="work">
+                <!--==================== QUALIFICATION 1 ====================--> 
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Trainee Banking Assistant</h3>
+                        <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2017 - 2019
+                        </div>
+                    </div>
+   
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+                
+                <!--==================== QUALIFICATION 2 ====================--> 
+                <div class="qualification__data">
+                   <div></div>
+                   <div>
+                      <span class="qualification__rounder"></span>
+                      <span class="qualification__line"></span>
+                   </div>
+   
+                   <div>
+                       <h3 class="qualification__title">Banking Assistant</h3>
+                       <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                       <div class="qualification__calendar">
+                          <i class="uil uil-calendar-alt"></i>
+                          2019 - 2020
+                       </div>
+                   </div>
+               </div> 
+   
+               <!--==================== QUALIFICATION 3 ====================--> 
+               <div class="qualification__data">
+                   <div>
+                       <h3 class="qualification__title">Data Analyst - Digital banking</h3>
+                       <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                       <div class="qualification__calendar">
+                          <i class="uil uil-calendar-alt"></i>
+                          2020 - Present
+                       </div>
+                   </div>
+   
+                   <div>
+                       <span class="qualification__rounder"></span>
+                       <!-- <span class="qualification__line"></span> -->
+                   </div>
+               </div> 
+          
+               </div> 
+             
+               </div>
+            </div>
+        </section>
+      
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What I offer</span>
+
+            <div class="services__container container grid">
+        <!--==================== SERVICES 1 ====================-->  
+        <div class="services__content">
+            <div>
+                <i class="uil uil-analytics skills__icon"></i>
+                <h3 class="services__title">Data Analyst<br></h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View more
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <h4 class="services__modal-title">Data Analyst <br></h4>
+                    <i class="uil uil-times services__modal-close"></i>
+
+                    <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>I analize data systems.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Automating information retrieval.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Systematically applying statistical and logical techniques.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Visualizing graphs, charts and preparing reports and dashboards.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+        
+        <!--==================== SERVICES 2 ====================--> 
+        <div class="services__content">
+            <div>
+                <i class="uil uil-money-bill skills__icon"></i>
+                <h3 class="services__title">Banker<br> </h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View more
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <h4 class="services__modal-title">Banker<br></h4>
+                    <i class="uil uil-times services__modal-close"></i>
+
+                    <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Assiting both personal and commercial clients with financial questions and needs.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Maintain customer acoounts and help resolve disputes.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Refer customers to loan officers or other financial specialist.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Systematically applying statistical and logical techniques.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+       
+        <!--==================== SERVICES 3 ====================-->
+        <div class="services__content">
+            <div>
+                <i class="uil uil-arrow services__icon"></i>
+                <h3 class="services__title">Web Developer<br></h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View more
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <h4 class="services__modal-title">Web  Developer<br></h4>
+                    <i class="uil uil-times services__modal-close"></i>
+
+                    <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>I develop the user interface.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Webpage development.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>I create Ux element interactions.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Well trained in WordPress.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+  
+       
+        </div>
+        </section>
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent works</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+        <!--==================== PORTFOLIO 1 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/venta-en-linea1.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Modern Dashboard</h3>
+                    <p class="portfolio__description">Data analitical dashboard adaptable to all devices, 
+                        with ui components and animated interactions.</p>
+                    <a href="#" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/venta-en-linea2.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">E-Commerce website</h3>
+                    <p class="portfolio__description">Above Amazon clone is adaptable to all devices, with 
+                        ui components and animated interactions.</p>
+                    <a href="#" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/portfolio2.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Brand Design</h3>
+                    <p class="portfolio__description">Tesla Clone is adaptable to all devices, with 
+                        ui components and animated interactions.</p>
+                    <a href="#" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+                </div>
+
+            <!-- add arrows-->
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            
+        
+        </div>
+
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You have a new project?</h2>
+                        <p class="project__description">Contact me now and get discounts on your projects.</p>
+                        <a href="#contact" class="button button--flex button--white">Contacto
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                       
+                    </div>
+                    <!-- <img src="assets/img/project.png" alt="" class="project__img"> -->
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
+
+            <h2 class="section__title">Testimonials</h2>
+            <span class="section__subtitle">Comentarios de usuarios</span>
+
+            <div class="testimonial__container container swiper-container">
+                <div class="swiper-wrapper">
+                <!--==================== TESTIMONIAL 1 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="./packages/images/arun.PNG" alt="" class="testimonial__img">
+                                
+                                <div>
+                                    <h3 class="testimonial__name">Arun Prashanth</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">I get a good impression, I carry out my project with all the 
+                            possible quality and attention and support 24 hours a day.
+                        </p>
+                    </div>
+                    <!--==================== TESTIMONIAL 2 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="./packages/images/yuga.PNG" alt="" class="testimonial__img">
+                                
+                                <div>
+                                    <h3 class="testimonial__name">Yugadarshan</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">I get a good impression, I carry out my project with all the 
+                            possible quality and attention and support 24 hours a day.
+                        </p>
+                    </div>
+                    <!--==================== TESTIMONIAL 3 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="./packages/images/shenan.PNG" alt="" class="testimonial__img">
+                                
+                                <div>
+                                    <h3 class="testimonial__name">Shenan Sachinthan</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">I get a good impression, I carry out my project with all the 
+                            possible quality and attention and support 24 hours a day.</p>
+                    </div>      
+                </div>
+
+                <!--Add pagination-->
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+            </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contatc__subtitle">(+502) 58133713</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contatc__subtitle">luisfernandolocu@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contatc__subtitle">Quetzaltenango , Guatemala</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Nombre</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">E-mail</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Descripcion</label>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Description</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Enviar Mensaje
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Store Place</h1>
+                    <span class="footer__subtitle">Mas cerca de ti</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">v0.0.1</a>
+                    </li>
+
+                </ul>
+
+                <div class="footer__socials">
+                    <a href=https://www.facebook.com/prashanna.drashan" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/prashanna01/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/prashanna01" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169;Store Place. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="./packages/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/main.js"></script>
+</body>
+
+</html>

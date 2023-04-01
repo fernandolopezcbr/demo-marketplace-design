@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/styles.css">
+
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+        <title>Store Place</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="./index.html" class="nav__logo">Store Place
+                    <a href="./publicar.html" class="boton-publicar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17q.425 0 .713-.288T13 16v-3h3q.425 0 .713-.288T17 12q0-.425-.288-.713T16 11h-3V8q0-.425-.288-.713T12 7q-.425 0-.713.288T11 8v3H8q-.425 0-.713.288T7 12q0 .425.288.713T8 13h3v3q0 .425.288.713T12 17Zm-7 4q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.588 1.413T19 21H5Zm0-2h14V5H5v14Zm0 0V5v14Z"/></svg>
+                    </a>
+
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="./index.html" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i>Inicio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>Acerca
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./categorias.html" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Categorias
+                            </a>
+                        </li>
+                          <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i>Servicios
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Portfolio                                
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contacto                               
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+
+
+    
+        </main>
+
+    
+
+        <div class="container mt-3">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 justify-content-center">
+    
+                <!-- FORMULARIO NOTAS -->
+                <div class="col mb-3">
+                    <div class="card">
+                        <div class="card-header text-light">
+                            Agregar Publicacion
+                        </div>
+                        <form>
+                            <div class="card-body">
+    
+                                <input type="text" class="form-control mb-3" placeholder="Nombre" id="nombre" required>
+    
+                                <input list="seleccionar"  id="departamento"class="form-control mb-3" placeholder="selecciona departamento">
+                                <datalist id="seleccionar">
+                                    <option selected disabled>Selecciona un departamento</option>
+                                    <option value="Alta Verapaz">Alta Verapaz</option>
+                                    <option value="Baja Verapaz">Baja Verapaz</option>
+                                    <option value="Chimaltenango">Chimaltenango</option>
+                                    <option value="Chiquimula">Chiquimula</option>
+                                    <option value="El Progreso">El Progreso</option>
+                                    <option value="Escuintla">Escuintla</option>
+                                    <option value="Guatemala">Guatemala</option>
+                                    <option value="Huehuetenango">Huehuetenango</option>
+                                    <option value="Izabal">Izabal</option>
+                                    <option value="Jalapa">Jalapa</option>
+                                    <option value="Jutiapa">Jutiapa</option>
+                                    <option value="Peten">Peten</option>
+                                    <option value="Quetzaltenango">Quetzaltenango</option>
+                                    <option value="Quiche">Quiche</option>
+                                    <option value="Retalhuleu">Retalhuleu</option>
+                                    <option value="Sacatepequez">Sacatepequez</option>
+                                    <option value="San Marcos">San Marcos</option>
+                                    <option value="Santa Rosa">Santa Rosa</option>
+                                    <option value="Solola">Solola</option>
+                                    <option value="Suchitepequez">Suchitepequez</option>
+                                    <option value="Totonicapan">Totonicapan</option>
+                                    <option value="Zacapa">Zacapa</option> 
+                                </datalist>
+    
+    
+    
+    
+                                <input type="text" class="form-control mb-3" placeholder="Ubicacion/direccion" id="ubicacion" required>
+                            
+                                
+                                    <select name="format" id="categoria" class="form-control mb-3">
+                                        <option selected disabled>Selecciona categoria</option>
+                                        <option value="empleo">Empleo</option>
+                                        <option value="hogar">Hogar</option>
+                                        <option value="informatica">Informatica</option>
+                                        <option value="inmobiliaria">Inmobiliaria</option>
+                                        <option value="juguetes">Juguetes</option>
+                                        <option value="libros">Libros</option>
+                                        <option value="muebles">Muebles</option>
+                                        <option value="ropa">Ropa</option>
+                                        <option value="salud">Salud</option>
+                                        <option value="servicios">Servicios</option>
+                                        <option value="vehiculos">Vehiculos</option>
+                                    </select>
+                                
+    
+    
+                                <h6>url para drive: https://drive.google.com/uc?export=download&id=</h6>
+                                <input type="text" class="form-control mb-3" placeholder="url imagen" id="imagen" required>
+                                <input type="text" class="form-control mb-3" placeholder="email" id="email" required>
+                                <input type="text" class="form-control mb-3" placeholder="telefono" id="telefono" required>
+                                <input type="text" class="form-control mb-3" placeholder="whatsapp" id="whatsapp">
+                                <input type="text" class="form-control mb-3" placeholder="horario" id="horario" >
+                                <input type="text" class="form-control mb-3" placeholder="website" id="website" >
+                                
+    
+                                <input type="text" class="form-control mb-3" placeholder="Título" id="title" required>
+                                <textarea class="form-control" placeholder="Contenido de la nota" rows="6" id="description" required></textarea>
+                            </div>
+                            <div class="card-footer" id="footer">
+                                <button type="submit" class="btn btn-primary" id="btn">Guardar</button>
+                            </div>
+                        </form>
+                    </div>
+    
+                </div>
+                <div class="col">
+    
+                    <div class="card">
+                        <div class="card-header text-light">
+                            Notas
+                        </div>
+                        <div class="card-body" id="show-notes">
+                            <p id="message"></p>
+                        </div>
+                    </div>
+    
+    
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Store Place</h1>
+                    <span class="footer__subtitle">Mas cerca de ti</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                     <li>
+                        <a href="#contact" class="footer__link">v0.0.1</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href=https://www.facebook.com/prashanna.drashan" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/prashanna01/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/prashanna01" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169;Store Place. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    
+
+
+
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="./packages/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/main.js"></script>
+ 
+
+   
+</body>
+
+</html>

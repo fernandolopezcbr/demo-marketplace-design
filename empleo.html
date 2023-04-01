@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/styles.css">
+
+
+        <style>
+
+            html{
+                        box-sizing: border-box;
+                        font-family: 'Raleway', 'sans-serif';
+                        font-size: 16px;
+                    }
+            
+                    *,
+                    *:after,
+                    *:before{
+                        box-sizing:inherit;
+                    }
+            
+                    a{
+                        color: #01579b;
+                        transition: all .3s ease-out;
+                    }
+            
+                    a:hover{
+                        opacity:.75;
+                    }
+            
+                    img{
+                        max-width: 100%;
+                        height: auto;
+                    }
+            
+                    h1{
+                        text-align: center;
+                    }
+            
+                    hr{
+                        border:thin solid #01579b;
+                        margin: 3rem auto;
+                        width: 80%;
+                    }
+            
+                    .site{
+                        margin: 1rem auto;
+                        padding: 1rem;
+                        max-width: 50%;
+                        text-align: center;
+                    }
+            
+                    .post{
+                        margin: 1rem auto;
+                        padding: 1rem;
+                        border-radius: .5rem;
+                        max-width: 80%;
+                        text-align: center;
+                        background-color: #eceff1;
+                    }
+            
+                    .post-date{
+                        margin: 1 rem auto;
+                        display:block;
+                        color: #666262;
+                        
+                    }
+            
+                    .post-content{
+                        text-align: left;
+                        font-size: 1.1rem;
+                        font-weight: bold;
+                    }
+            
+            
+                    
+                    .post-content>article{
+                        padding: 1rem;
+                        background-color: #e3f2fd;
+                        border-radius: .8rem;
+                    }
+            
+            
+                    .post-content img{
+                        max-width: 75%;
+                        display:block;
+                        margin: auto;
+                        border-radius: .8rem;
+                    }
+            
+                    .loader{
+                        display: none;
+                        margin: 2rem auto;
+                    }
+            
+                    input .form-control{
+                        height: auto;
+                    }
+            
+                    
+            
+                    input{
+                        margin: 1rem auto;
+                        padding: 1rem;
+                        background-color:  #eceff1;
+                        width: 300px;
+                        height: 45px;
+                        max-width: 80%;
+                        text-align: left;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: row;
+                        
+                        
+                    }
+                    
+                    ::placeholder{
+                        color:black;
+                        opacity: 0.7;
+                    }
+            
+            
+                    .card-title{
+                        text-align: center;
+                    }
+            
+                    button{
+                        display: none;
+                    }
+               
+            
+                    
+                  </style>
+
+        <title>Store Place</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="./index.html" class="nav__logo">Store Place
+                    <a href="./publicar.html" class="boton-publicar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17q.425 0 .713-.288T13 16v-3h3q.425 0 .713-.288T17 12q0-.425-.288-.713T16 11h-3V8q0-.425-.288-.713T12 7q-.425 0-.713.288T11 8v3H8q-.425 0-.713.288T7 12q0 .425.288.713T8 13h3v3q0 .425.288.713T12 17Zm-7 4q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.588 1.413T19 21H5Zm0-2h14V5H5v14Zm0 0V5v14Z"/></svg>
+                    </a>
+
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="./index.html" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i>Inicio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>Acerca
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./categorias.html" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Categorias
+                            </a>
+                        </li>
+                          <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i>Servicios
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Portfolio                                
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contacto                               
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            
+
+
+            
+           
+
+             
+      
+      
+
+        </main>
+
+
+
+        <div class="container mt-5">
+            <h1>Empleos </h1>
+            <br><br>
+            <input type="search" id="formulario" class="form-control my-2" placeholder="Buscar..." autocomplete="off">
+    
+            <br><br>
+            <!---  Boton de busqueda al evento click-->
+    
+            <button class="btn btn-info mb-2" id="boton"> Buscar</button>
+    
+          
+    
+        </div>
+    
+    
+    
+        <div id="resultado">
+    
+          
+        </div>
+
+
+
+
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Store Place</h1>
+                    <span class="footer__subtitle">Mas cerca de ti</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">v0.0.1</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href=https://www.facebook.com/prashanna.drashan" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/prashanna01/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/prashanna01" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169;Store Place. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="./packages/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/main.js"></script>
+    <script type="module"></script>
+
+    <script>
+        
+     
+
+  
+        const $formulario = document.querySelector("#formulario"),
+        $boton = document.querySelector("#boton"),
+        $oneText = document.querySelector("#one-text"),
+        $image = document.querySelector("#image"),
+        $resultado = document.querySelector("#resultado");
+
+
+        const filtrar = async ()=>{
+          //$resultado.innerHTML = `<img class="loader" src="oval.svg"  alt="Cargando...">`;
+
+
+           let api = `https://api-data-bars-production.up.railway.app/api/notes`,
+            res = await fetch(api),
+            json = await res.json();
+
+
+            let filtrarcategoria = json.notes;
+
+
+            const filtrado = filtrarcategoria.filter(el => el.categoria === "tienda de licores");
+            
+
+          //let titulo = json.notes;
+          //console.log(titulo)
+            //console.log($formulario.value);
+
+            $resultado.innerHTML = "";
+
+            //$shows.innerHTML = "";
+            //$shows.appendChild($fragment);
+            //ocultar el loader
+   
+
+
+            const texto = $formulario.value.toLowerCase();
+            for(let producto of filtrado){
+                let nombre = producto.nombre.toLowerCase();
+                if(nombre.indexOf(texto) !== -1){
+                    
+                   
+                    //$resultado.innerHTML = `<h3 class="card-title">${producto.nombre} </h3>`;
+                    //$resultado.innerHTML += `<p class="card-text">${producto.description} </p>`;
+                    //$resultado.innerHTML = `<img src="${producto.imagen}" class="rounded mx-auto d-block">`;
+
+                    $resultado.innerHTML += `
+                    
+                    <article class="post">
+            <img class="post-image" alt="">
+            <aside>
+                <h2 class="post-title">${producto.nombre}</h2>
+                <figure class="post-autor"></figure>
+                <small class="post-date">fecha de publicacion : ${new Date(producto.date).toLocaleDateString()}</small>
+                <a href="post-link" target="_blank"></a>
+                <p class="post-excerpt"></p>
+                <div class="post-categories"></div>
+                <div class="post-tags"></div>
+                <details class="post-content">
+                    <summary>Ver contenido de la publicacion</summary>
+                    
+                    <article>
+                        <img src="${producto.imagen}">
+                    <p>${producto.description}</p>    
+                    </article>
+                </details>
+            </aside>
+        </article>
+        <hr>
+                      
+                      
+                      `;
+
+  
+
+
+                    
+                            
+
+                }
+                
+            }
+            
+
+            if($resultado.innerHTML === ""){
+                $resultado.innerHTML += `<h2 class="card-title"> Publicacion :  <mark>${texto}</mark> no encontrada</h2>`
+            }
+            
+        }
+
+        $boton.addEventListener("click", filtrar)
+        $formulario.addEventListener("keyup", filtrar)
+
+        filtrar();
+
+        
+
+    </script>
+
+</body>
+
+</html>
